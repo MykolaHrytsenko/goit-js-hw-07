@@ -17,4 +17,4 @@ function createImgGalleryMarkup(galleryItems) {
     }).join('');
 };
 
-const lightbox = new SimpleLightbox('.gallery a', { captionDelay: 600, animationSpeed: 600, fadeSpeed: 600, overlayOpacity: 0.5 });
+const lightbox = new SimpleLightbox('.gallery a', { captionsData: "alt", captionDelay: 250 });
